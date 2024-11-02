@@ -1,0 +1,74 @@
+/* General Styling */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.computer {
+  width: 300px;
+  text-align: center;
+  position: relative;
+}
+
+.monitor {
+  background: #0D0D0D; /* Updated desktop monitor color */
+  border-radius: 10px;
+  padding: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.screen {
+  background: #F9F8F3; /* Desktop screen background */
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Button styling with updated rims and labels */
+.app {
+  display: block;
+  width: 80%;
+  height: 40px;
+  background-color: #9DAF89;
+  color: white;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 5px;
+  margin: 10px 0;
+  text-decoration: none;
+  font-weight: 600;
+  border: 4px solid #0D0D0D; /* Updated button rim color */
+  transition: transform 0.2s; /* Smooth animation for scale */
+}
+
+/* Stand styling with updated color */
+.stand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.base {
+  width: 50px;
+  height: 10px;
+  background: #0D0D0D; /* Stand color */
+  border-radius: 5px;
+}
+
+.foot {
+  width: 100px;
+  height: 5px;
+  background: #0D0D0D; /* Foot color */
+  margin-top: 5px;
+  border-radius: 2px;
+}
